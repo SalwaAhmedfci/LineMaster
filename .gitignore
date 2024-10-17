@@ -1,0 +1,18 @@
+# Ignore all files in uploaded_files but keep the directory
+uploaded_files/*
+!uploaded_files/.gitkeep
+
+# Ignore SQLite database
+*.sqlite3
+
+# Ignore virtual environment files
+venv/
+env/
+ENV/
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore other system files (optional)
+.DS_Store
+Thumbs.db
